@@ -4,6 +4,7 @@ body{
 
 }
 
+
 .main-content{
 	background-color: #e9e8f0;
 	border-style: inset;
@@ -24,4 +25,13 @@ p {
 	position: relative;
 }
 
+footer {
+	background-color: #e9e8f0;
+	border-style: inset;
+	border: solid;
+	border-color: #d1ebf1;
+	text-align: right;
+	padding-bottom: 10px;
+	padding-top:  10px;
+}
 
