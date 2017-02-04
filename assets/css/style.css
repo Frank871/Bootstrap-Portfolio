@@ -4,5 +4,24 @@ body{
 
 }
 
+.main-content{
+	background-color: #e9e8f0;
+	border-style: inset;
+	border: solid;
+	border-color: #d1ebf1;
+	width:  33%;
+	position: relative;
+	left:  375px;
+	padding-bottom: 30px;
+}
+p {
+    margin-top: 10px;
+	background-color: #e9e8f0;
+	right: 100px;
+	border-style: inset;
+	border: solid;
+	border-color: #d1ebf1;
+	position: relative;
+}
 
 
