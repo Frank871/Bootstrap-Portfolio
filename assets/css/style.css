@@ -1,37 +1,167 @@
 body{
   
-  background-image: url("../images/cork-wallet.png");
+  background-color: black;
 
+}
+
+h1{
+	font-family: 'Lora', serif;
+	position: relative;
+	text-align: center;
+	right: 20px;
+	top: 250px;
 }
 
 
 .main-content{
-	background-color: #e9e8f0;
-	border-style: inset;
-	border: solid;
-	border-color: #d1ebf1;
-	width:  33%;
+
 	position: relative;
-	left:  375px;
-	padding-bottom: 30px;
-}
-p {
-    margin-top: 10px;
-	background-color: #e9e8f0;
-	right: 100px;
-	border-style: inset;
-	border: solid;
-	border-color: #d1ebf1;
-	position: relative;
+	top: 20px;
+	font-family: 'Lora', serif;
+	font-size: 24px;
+    color: black;
+    background-color: white;
+    width:  95%;
+    border: 6px double gray;
+    left: 25px;
+    padding-bottom: 300px;
+    
 }
 
-footer {
-	background-color: #e9e8f0;
-	border-style: inset;
-	border: solid;
-	border-color: #d1ebf1;
-	text-align: right;
-	padding-bottom: 10px;
-	padding-top:  10px;
+p{
+	font-size: 18px;
+
 }
+
+h3{
+	font-size: 18px;
+}
+
+a {
+	color: black;
+}
+
+li {
+
+	display:inline-block
+}
+
+hr {
+   position: relative;
+   top: 200px;
+   left: 260px;
+   color: black;
+   border: inset;
+   width: 60%;
+
+}
+
+h2 {
+	position: relative;
+	text-align: center;
+	display:inline-block;
+	top: 20px;
+
+}
+
+.coolpic{
+	position: relative;
+	width: 30%;
+	left: 400px;
+	top: 160px;
+}
+
+.aboutme {
+	position: relative;
+	width: 50%;
+	left: 325px;
+	top: 260px;
+
+}
+
+.panel-1{
+	position: relative;
+	float: right;
+	bottom: 810px;
+	font-size: 30px;
+	right: 20px;
+}
+
+.nav-right {
+	position: relative;
+
+}
+
+.navbar-brand.logo{
+	position: relative;
+	color: white;
+	font-family: 'Lora', serif;
+	font-size: 40px;
+	top: 10px;
+}
+.navbar.navbar-default{
+   background-color: white;
+   width: 100%;
+}
+
+
+.footer {
+	position: relative;
+    background-color: white;
+	text-align: center;
+	padding-bottom: 30px;
+	padding-top:  20px;
+	top: 260px;
+
+}
+
+ * {
+            margin: 0;
+            padding: 0;
+            }
+
+.fly-in-text {
+                list-style: none;
+                position: absolute;
+                left: 50%;
+                top: 10%;
+                transform: translateX(-50%) translateY(-50%);
+            }
+
+ .fly-in-text li {
+                display: inline-block;
+                margin-right: 5px;
+                font-family: 'Lora', serif;
+                font-weight: 300;
+                font-size: 18px;
+                color: black;
+                opacity: 1;
+                transition: all 2.5s ease;
+            }
+ 
+.fly-in-text li:last-child {
+                margin-right: 0;
+            }
+
+.fly-in-text.hidden li {
+                opacity: 0;
+            }
+
+            .fly-in-text.hidden li:nth-child(1) { transform: translateX(-200px) translateY(-200px); }
+            .fly-in-text.hidden li:nth-child(2) { transform: translateX(20px) translateY(100px); }
+            .fly-in-text.hidden li:nth-child(3) { transform: translateX(-150px) translateY(-80px); }
+            .fly-in-text.hidden li:nth-child(4) { transform: translateX(10px) translateY(-200px); }
+            .fly-in-text.hidden li:nth-child(5) { transform: translateX(-300px) translateY(200px); }
+            .fly-in-text.hidden li:nth-child(6) { transform: translateX(20px) translateY(-20px); }
+            .fly-in-text.hidden li:nth-child(7) { transform: translateX(30px) translateY(200px); }
+            .fly-in-text.hidden li:nth-child(8) { transform: translateX(-300px) translateY(200px); }
+            .fly-in-text.hidden li:nth-child(9) { transform: translateX(-200px) translateY(-200px); }
+            .fly-in-text.hidden li:nth-child(10) { transform: translateX(20px) translateY(100px); }
+            .fly-in-text.hidden li:nth-child(11) { transform: translateX(-150px) translateY(-80px); }
+            .fly-in-text.hidden li:nth-child(12) { transform: translateX(10px) translateY(-200px); }
+            .fly-in-text.hidden li:nth-child(13) { transform: translateX(-300px) translateY(200px); }
+            .fly-in-text.hidden li:nth-child(14) { transform: translateX(30px) translateY(200px); }
+
+
+
 
