@@ -1,8 +1,14 @@
-body{
-  
-  background-color: black;
-
-}
+body {
+                background: linear-gradient(132deg, #ec5218, #1665c1);
+                background-size: 400% 400%;
+                animation: BackgroundGradient 30s ease infinite;
+            }
+            
+            @keyframes BackgroundGradient {
+                0% {background-position: 0% 50%;}
+                50% {background-position: 100% 50%;}
+                100% {background-position: 0% 50%;}
+            }
 
 h1{
 	font-family: 'Lora', serif;
@@ -33,9 +39,15 @@ p{
 
 }
 
-h3{
-	font-size: 18px;
+.panel-1 h3{
+	font-size: 20px;
 }
+
+.panel-2 h3 {
+
+    font-size: 22px;
+}
+
 
 a {
 	color: black;
@@ -64,11 +76,19 @@ h2 {
 
 }
 
+.work{
+    position: relative;
+    left: 500px;
+    top: 100px;
+    
+}
+
 .coolpic{
 	position: relative;
 	width: 30%;
 	left: 400px;
 	top: 160px;
+
 }
 
 .aboutme {
@@ -82,9 +102,16 @@ h2 {
 .panel-1{
 	position: relative;
 	float: right;
-	bottom: 810px;
-	font-size: 30px;
+    font-size:  80px;
 	right: 20px;
+}
+
+.panel-2{
+    position: relative;
+    bottom: 80px;
+    float: right;
+    font-size: 50px;
+    right: 20px;
 }
 
 .nav-right {
@@ -111,8 +138,7 @@ h2 {
 	text-align: center;
 	padding-bottom: 30px;
 	padding-top:  20px;
-	top: 260px;
-
+	top: 280px;
 }
 
  * {
