@@ -39,6 +39,10 @@ p{
 
 }
 
+.contact-me h2 {
+    left: 30px;
+}
+
 .panel-1 h3{
 	font-size: 20px;
 }
@@ -110,7 +114,15 @@ h2 {
     position: relative;
     bottom: 80px;
     float: right;
-    font-size: 50px;
+    font-size: 20px;
+    right: 20px;
+}
+
+.panel-3{
+    position: relative;
+    bottom: 80px;
+    float: right;
+    font-size: 10px;
     right: 20px;
 }
 
@@ -131,8 +143,49 @@ h2 {
    width: 100%;
 }
 
+.form-group{
+    position: relative;
+    width: 90%;
+}
 
-.footer {
+#comment{
+    padding-bottom: 20px;
+}
+
+
+#big-panel{
+    top: 50px;
+    padding-bottom: 20px;
+    left: 428px;
+    width: 38%;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    border-style: ridge;
+    border-width: 9px;
+    border-color: darkslategray;
+}
+
+#big-panel h2 {
+    position: relative;
+    left: 100px;
+}
+
+#submit{
+    position: relative;
+    top: 15px;
+    width: 30%;
+    left: 150px;
+}
+
+.cool-pic-2{
+    position: relative;
+    left: 400px;
+}
+
+
+
+footer {
 	position: relative;
     background-color: white;
 	text-align: center;
@@ -157,7 +210,7 @@ h2 {
  .fly-in-text li {
                 display: inline-block;
                 margin-right: 5px;
-                font-family: 'Lora', serif;
+                font-family: 'Kaushan Script', cursive;
                 font-weight: 300;
                 font-size: 18px;
                 color: black;
